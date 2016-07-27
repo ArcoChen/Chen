@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>金龙鱼</title>
+    <script src="Script/jquery-1.8.2.min.js"></script>
+    <script src="Script/imlzt-framework.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            var link = location.href;
+            var barcode = link.substr(link.lastIndexOf("/") + 1, 14);
+            var startElement = barcode.substr(0, 1).toLocaleUpperCase();
+            if (startElement == "A" || startElement == "M") {
+                location.href = "http://8kh.me/ScanAntiFakeIndex.html?code=" + barcode;
+            } 
+        });
+    </script>
+</head>
+<body>
+
+</body>
+</html>

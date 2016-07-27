@@ -1,0 +1,53 @@
+﻿@charset "utf-8";
+/* CSS Document */
+body,html,div,p,ul,li { margin:0; padding:0;-webkit-text-size-adjust: none;}
+body {
+
+  -webkit-text-size-adjust:none; 
+  text-align: center; 
+  overflow:hidden;
+  height:100%;
+  width: 100%;
+  font-family:"微软雅黑","Microsoft YaHei","Lucida Grande", "Lucida Sans Unicode", "STHeiti", "Helvetica","Arial","Verdana","sans-serif";
+}
+#bg{
+   position:absolute;
+   background: RGB(39,161,212) no-repeat;
+   background-size:contain;
+   top:0px;
+   left:0px;
+   height:100%;
+   width: 100%;
+   overflow:auto;
+}
+#container
+{
+    width:90%;
+    height:99%;
+    margin:0 auto;
+}
+    #container .rr
+    {
+        padding-top:8px;
+        padding-bottom:8px;
+        color: #ffffff;
+        font-weight: 600;
+        font-size: 1.50em;
+    }
+    #container > p
+    {
+        color:#ffffff; 
+        font-size:1.10em; 
+        margin:0 auto
+    }
+.p-livema {
+    color: #fff;
+    width: 100%;
+    margin: 0 auto;
+    list-style-type:none;
+}
+.p-livema li {
+    width: 45%;
+    overflow: hidden;
+    float: left;
+}

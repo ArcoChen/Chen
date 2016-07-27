@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>越港云端</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta http-equiv="x-rim-auto-match" content="none"/>
+    <link href="Styles/details.css" rel="stylesheet" />
+    <script src="Script/jquery-1.8.2.min.js"></script>
+    <script src="Script/imlzt-framework.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            var cartonbox = GetQuery("code");
+            getAjax("/GetCartonInfoHandle.ashx", { "cartonbox": cartonbox }, function (data) {
+                var JsonData = eval("(" + data + ")");
+                $.each(JsonData, function (i) {
+                $("#content").append("<li><span>生产日期:</span><span>见箱体</span></li><li><span>生产批号:</span><span>" + JsonData[i].taskno + "</span></li><li><span>生 产 方:</span><span>" + JsonData[i].companyname + "</span></li><li><span>代 理 商:</span><span>" + JsonData[i].customername + "</span></li><li><span>批 发 商:</span><span>******</span></li><li><span>物 流 商:</span><span>******</span></li>");
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+    <div id="bg">
+        <div id="container">
+            <div class="rr">查询结果</div>
+            <div class="ul-main">
+                <div>
+                    <ul id="content">
+                    </ul>
+                </div>
+                <div class="find-jg">                              
+                    <ul style="width:100%">
+                        <li class="xm-tz">
+                          <!--  <p class="am-ts">点击右图查看本箱各罐产品编码</p> -->
+                        </li>
+                        <li class="ul-main-img"> 
+                               <img src="../Images/xming.png" style="width:50%;height:50%"/>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="ll">
+            </div>
+            <div>
+                <img src="../Images/xi02.png" class="plive-img"/>
+            </div>
+            <div class="p-class">
+                <p>（扫箱码活动仅针对终端零售商）</p>
+                <p>本活动最终解释权归深圳前海凯华饮品有限公司所有</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

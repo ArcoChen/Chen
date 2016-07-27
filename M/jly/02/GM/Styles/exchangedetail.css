@@ -1,0 +1,23 @@
+﻿
+@media screen and (max-width:374px)
+{
+    .ui-li-heading
+    {
+        font-size:15px;
+    }
+}
+@media screen and (min-width:375px) and (max-width:413px)
+{
+    /*body
+    {
+        font-size:1.22em;
+    }*/
+}
+@media screen and (min-width:414px) and (max-width:599px)
+{
+    /*body
+    {
+        font-size:1.35em;
+    }*/
+}
+    

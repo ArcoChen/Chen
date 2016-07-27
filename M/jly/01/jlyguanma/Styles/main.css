@@ -1,0 +1,295 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+body,html,div,p,ul,li { margin:0; padding:0;-webkit-text-size-adjust: none;}
+body { 
+  -webkit-text-size-adjust:none; 
+    background-color:#fff;
+  /*font-size:1.1em;*/
+  color:black;
+  text-align: center; 
+  overflow:hidden;
+  height:100%;
+  width: 100%;
+}
+
+#top{
+   z-index: 8;
+   position:absolute;
+   width:100%;
+   top:22px;
+   left:0px;
+   height:10%;
+   /*background:transparent url(../Images/top-bg.jpg) center center;*/
+    background-size:cover;
+}
+.center-middle{
+    position: absolute;
+    left:50%;
+    top:50%;
+     transform: translate(-50%,-50%);
+   -ms-transform: translate(-50%,-50%);
+   -moz-transform: translate(-50%,-50%);
+   -webkit-transform: translate(-50%,-50%);
+}
+#container{
+   position:absolute;
+    background:transparent url(../Images/bg.png) center center;
+    background-size:cover;
+    top:0px;
+   left:0px;
+  height:100%;
+  width: 100%;
+  overflow:hidden;
+}
+#main{
+  width:100%;
+   position: absolute;
+    left:50%;
+    top:40%;
+    transform: translate(-50%,-52%);
+   -ms-transform: translate(-50%,-52%);
+   -moz-transform: translate(-50%,-52%);
+   -webkit-transform: translate(-50%,-52%);
+}
+
+
+#main>div{
+  /*margin-bottom:20px;*/ 
+}
+.info{
+  width: 100%;
+  background-size:cover;
+}
+.info span{
+  text-align: left;
+  display: inline-block;
+  width: 40%;
+  margin-top:4px;
+  margin-right:10px;
+}
+    .info span:first-child
+    {
+        width: 25%;
+    }
+.info span.l{
+  text-align: center;
+}
+
+.more span.l{
+  color:gray;
+}
+
+.more a:active{
+  opacity:0.6;
+}
+
+
+#footer{
+   z-index: 9;
+   position:absolute;
+   width:100%;
+   bottom:0px;
+   left:0px;
+   height:15%;
+   /*background:transparent url(../Images/bottom-bg.jpg) center center;*/
+    background-size:100% 100%;
+}
+
+#footer div{
+  display: inline-block;
+  position: relative;
+   width:22%;
+   height:100%;
+}
+
+
+
+
+
+
+
+img { border:0}
+* { -webkit-tap-highlight-color: rgba(0, 0, 0, 0);  }
+
+
+
+/*分辨率*/
+ @media screen and (max-width:374px)
+{
+    .rd > img
+    {
+        height:25%;
+        width:25%;
+        padding:5%;
+    }
+    .info > img
+    {
+        position:absolute;
+        left:10%;
+        top:21%;
+        width:80%;
+        height:15%;
+        z-Index:-1;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:568px)
+{
+     .rd > img
+    {
+        height:30%;
+        width:24%;
+        padding:5%;
+    }
+    .info > img
+    {
+        position:absolute;
+        left:10%;
+        top:24%;
+        width:80%;
+        height:15%;
+        z-Index:-1;
+    }
+}
+
+@media screen and (min-width:375px) and (max-width:413px)
+{
+     .rd > img
+    {
+        height:30%;
+        width:28%;
+        padding:5%;
+    }
+    .info > img
+    {
+        position:absolute;
+        left:10%;
+        top:24%;
+        width:80%;
+        height:15%;
+        z-Index:-1;
+    }
+}
+
+@media screen and (min-width:375px) and (max-width:667px)
+{
+     .rd > img
+    {
+        height:35%;
+        width:28%;
+        padding:5%;
+    }
+    .info > img
+    {
+        position:absolute;
+        left:10%;
+        top:24%;
+        width:80%;
+        height:15%;
+        z-Index:-1;
+    }
+	
+	.info div{
+		font-size:1em;
+	}
+}
+
+@media screen and (min-width:414px) and (max-width:767px)
+{
+    body
+    {
+        font-size:1.4em;
+    }
+     .rd > img
+    {
+        height:32%;
+        width:30%;
+        padding:5%;
+    }
+    .info > img
+    {
+        position:absolute;
+        left:10%;
+        top:24%;
+        width:80%;
+        height:15%;
+        z-Index:-1;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1000px)
+{
+    body
+    {
+        font-size:2em;
+    }
+     .rd > img
+    {
+        height:20%;
+        width:19%;
+        padding:8%;
+    }
+    .info > img
+    {
+        position:absolute;
+        left:10%;
+        top:25%;
+        width:80%;
+        height:15%;
+        z-Index:-1;
+    }
+
+}
+
+@media screen and (min-width:768px) and (max-width:1024px)
+{
+    body
+    {
+        font-size:2em;
+    }
+     .rd > img
+    {
+        height:20%;
+        width:19%;
+        padding:8%;
+    }
+    .info > img
+    {
+        position:absolute;
+        left:10%;
+        top:26%;
+        width:80%;
+        height:20%;
+        z-Index:-1;
+    }
+
+}
+
+@media screen and (min-width:1000px)
+{
+    body
+    {
+        font-size:2em;
+    }
+    .rd
+    {
+        height:30%;
+    }
+     .rd > img
+    {
+        height:22%;
+        width:10%;
+    }
+    .info > img
+    {
+        position:absolute;
+        left:10%;
+        top:38%;
+        width:80%;
+        height:12%;
+        z-Index:-1;
+    }
+}
+
+

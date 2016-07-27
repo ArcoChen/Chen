@@ -1,0 +1,73 @@
+﻿@charset "utf-8";
+/* CSS Document */
+body,html,div,p,ul,li { margin:0; padding:0;-webkit-text-size-adjust: none;}
+body {
+
+  -webkit-text-size-adjust:none; 
+  text-align: center; 
+  overflow:hidden;
+  height:100%;
+  width: 100%;
+  font-family:"微软雅黑","Microsoft YaHei","Lucida Grande", "Lucida Sans Unicode", "STHeiti", "Helvetica","Arial","Verdana","sans-serif";
+}
+
+#container{
+   position:absolute;
+   background: RGB(39,161,212) url(../Images/publicbg.jpg) no-repeat;
+   background-size:contain;
+   top:0px;
+   left:0px;
+   height:100%;
+   width: 100%;
+   overflow:auto;
+}
+    #container > p
+    {
+        text-align:left;
+        padding:5%;
+    }
+.bordered
+{
+    border:solid #ccc 1px;
+    box-shadow:1px 1px 1px #ccc;
+    border-radius:6px;
+    border-spacing:0px;
+    display:table;
+    border-collapse:separate;
+}
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+.bordered th {
+    background-color: #dce9f9;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ebf3fc), to(#dce9f9));
+    background-image: -webkit-linear-gradient(top, #ebf3fc, #dce9f9);
+    background-image: -moz-linear-gradient(top, #ebf3fc, #dce9f9);
+    background-image: -ms-linear-gradient(top, #ebf3fc, #dce9f9);
+    background-image: -o-linear-gradient(top, #ebf3fc, #dce9f9);
+    background-image: linear-gradient(top, #ebf3fc, #dce9f9);
+    -webkit-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+    box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+    border-top: none;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+.bordered td, .bordered th {
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    text-align: center;
+}
+th {
+    font-weight: bold;
+}
+user agent stylesheettd, th {
+    display: table-cell;
+    vertical-align: inherit;
+}

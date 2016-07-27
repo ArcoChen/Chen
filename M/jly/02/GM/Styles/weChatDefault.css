@@ -1,0 +1,73 @@
+﻿@charset "utf-8";
+/* CSS Document */
+body,html,div,p,ul,li { margin:0; padding:0;-webkit-text-size-adjust: none;}
+body { 
+  -webkit-text-size-adjust:none; 
+  text-align: center; 
+  overflow:hidden;
+  height:100%;
+  width: 100%;
+  font-family:"微软雅黑","Microsoft YaHei","Lucida Grande", "Lucida Sans Unicode", "STHeiti", "Helvetica","Arial","Verdana","sans-serif";
+}
+
+#container{
+   position:absolute;
+   background: RGB(39,161,212);
+   background-size:cover;
+   top:0px;
+   left:0px;
+   height:100%;
+   width: 100%;
+   overflow:auto;
+}
+#top{
+   position:absolute;
+   width:100%;
+   left:0px;
+   height:20%;
+   top:10%;
+}
+#content
+{
+    position:absolute;
+    width:80%;
+    left:10%;
+    background:RGB(186,225,242);
+    background-size:cover;   
+    top:35%;
+
+}
+    #content>div:first-child
+    {
+        padding:10px;
+        border-bottom:2px solid white;
+    }
+    #content > div:nth-child(2)
+    {
+         padding:10px;
+         font-size:x-large;
+         font-weight:bolder;
+         color:red;
+    }
+    #content > div:last-child
+    {
+        padding:5px;
+        background-color:RGB(132,201,230);
+    }
+
+#footer{
+   position:absolute;
+   top:75%;
+   width:100%;
+}
+
+.personCenter {
+    width: 138px;
+    height: 36px;
+    background: url("../Images/personCenter.png") no-repeat left top;
+    border: 0px;
+    vertical-align: middle;
+    margin: 8px;
+    line-height: 18px;
+    font-size: 18px;
+}

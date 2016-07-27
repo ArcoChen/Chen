@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>越港云端</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="screen-orientation" content="portrait"/>
+    <meta name="x5-orientation" content="portrait"/>
+    <meta http-equiv="x-rim-auto-match" content="none"/>
+    <link href="Styles/main.css" rel="stylesheet" />
+    <script type="text/javascript" src="Script/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" src="Script/imlzt-framework.js"></script>
+    <script type="text/javascript" src="Script/jquery.cookie.js"></script>
+     <script type="text/javascript">
+            $(function () {
+                //$("#content").append("<li><span>身份编码:</span><span>" + $.cookie('securitycode') + "</span></li><li><span>产品名称:</span><span>" + $.cookie('materielname') + "</span></li><li><span>生产日期:</span><span>" + $.cookie('relationdate') + "</span></li><li><span>批次编号:</span><span>" + $.cookie('taskid') + "</span></li>");
+            $("#content").append("<li><span>生产日期:</span><span>见箱体</span></li><li><span>生产批号:</span><span>******</span></li><li><span>委 托 方:</span><span>益海嘉里食品营销有限公司</span></li><li><span>被委托方:</span><span>南海油脂工业(赤湾)有限公司</span></li><li><span>代 理 商:</span><span>******</span></li><li><span>批 发 商:</span><span>******</span></li><li><span>物 流 商:</span><span>******</span></li>");
+            });
+        </script>
+</head>
+<body>
+    <div id="container" class="container">
+            <!--<div id="top"><a href="#"><img class="center-middle" src="Images/logo.png" style="height:200%"/></a></div>-->
+            <div id="main">
+
+                <div class="rr">查询结果</div>
+                <div class="info">
+                   <div class="ul-mian">
+                                <ul id="content">
+                                </ul>
+                                <div class="find-jg">
+                               
+                               <ul style="width:100%">
+                               <li class="xm-tz">
+                              <!--数据查询结果码-->
+                              <script> 
+                               $(function(){
+								 $("#content").append("")+$cookie('');    
+							   });
+                               </script>
+                <!--              <p class="am-ts">点击右图查看本箱各罐产品编码</p>  -->
+                           <script language="javascript">
+
+                            function old_page() 
+                              { 
+                                 window.location = "login.html" 
+                               } 
+                           //</script> 
+
+                               </li>
+                               <li class="ul-main-img"> 
+                               <img src="images/箱子.png"  width="75%"  height="25%" align="right"  style=" margin-right:5%" onclick="javascript:window.location.href=''"  value="在新窗口打开s"/>
+                               </li>
+                               </ul>
+                              </div>
+                             </div> 
+                                   
+                </div>
+              
+            </div>
+            <div id="footer">
+                <div class="ll">
+                             </div>  
+                              <img src="images/xi02.png"  style="width:90%;height:60%; margin-top:1%;"/>
+                             <div class="p-class">
+                             <p>（扫箱码活动仅针对终端零售商）</p>
+                             <p>本活动最终解释权归益海嘉里食品营销有限公司所有</p>
+                             </div>
+            </div>
+     </div>
+       
+</body>
+</html>

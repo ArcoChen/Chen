@@ -1,0 +1,75 @@
+﻿@charset "utf-8";
+/* CSS Document */
+body,html,div,p,ul,li { margin:0; padding:0;-webkit-text-size-adjust: none;}
+body {
+
+  -webkit-text-size-adjust:none; 
+  text-align: center; 
+  overflow:hidden;
+  height:100%;
+  width: 100%;
+  font-family:"微软雅黑","Microsoft YaHei","Lucida Grande", "Lucida Sans Unicode", "STHeiti", "Helvetica","Arial","Verdana","sans-serif";
+}
+
+#container{
+   position:absolute;
+   background: RGB(39,161,212) url(../Images/publicbg.jpg) no-repeat;
+   background-size:contain;
+   top:0px;
+   left:0px;
+   height:100%;
+   width: 100%;
+   overflow:auto;
+}
+#top
+{
+    text-align:left;
+    padding-left:10px;
+    border-bottom:2px solid white;
+}
+    #top > span
+    {
+        display:inline;
+    }
+#content,#content5
+{
+    text-align:left;
+    padding:15px;
+    margin-top:10%;
+}
+    #content > p
+    {
+        line-height: 30px;
+    }
+        #content,#content5 > p > span
+        {
+            color:RGB(170,114,82);
+            font-weight:bold;
+        }
+#footer
+{
+    width:100%;
+    color:yellow;
+    font-size:xx-large;
+    position:absolute;
+    top:80%;
+    text-align:center;
+}
+@media screen and (max-width:374px)
+{
+
+}
+@media screen and (min-width:375px) and (max-width:413px)
+{
+    /*body
+    {
+        font-size:1.22em;
+    }*/
+}
+@media screen and (min-width:414px) and (max-width:599px)
+{
+    /*body
+    {
+        font-size:1.35em;
+    }*/
+}

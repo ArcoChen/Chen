@@ -1,0 +1,63 @@
+﻿body {
+}
+
+#setBrand {
+    margin: 2em;
+    padding: 1em;
+    width: 600px;
+    height: auto;
+    background: #cccccc;
+    color: #625a5a;
+}
+
+.brandList {
+    list-style: none;
+    display: block;
+    width: 500px;
+}
+
+    .brandList li {
+        width: auto;
+        padding: 10px;
+        margin: 10px;
+        background: #0e8196;
+        color: #fff;
+        font-size: 16px;
+        float: left;
+        height: 25px;
+        line-height: 25px;
+        border-radius: 4px;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+
+
+input[type="text"] {
+    border: 1px solid #808080;
+    width: 200px;
+    height: 20px;
+    line-height: 20px;
+    vertical-align: middle;
+}
+
+
+.tbScan {
+    border-collapse: collapse;
+    border: #808080;
+    margin-top:2em;
+}
+
+    .tbScan th {
+        text-align: center;
+        color: #fff;
+        background: #0f566d;
+        padding:10px;
+    }
+
+    .tbScan td {
+        text-align: center;
+        color: #625a5a;
+        background: #fff;
+        padding:10px;
+    }

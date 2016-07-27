@@ -1,0 +1,427 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+body,html,div,p,ul,li { margin:0; padding:0;-webkit-text-size-adjust: none;}
+body { 
+  -webkit-text-size-adjust:none; 
+   background-color:#2e3235;
+  color: #000;
+  text-align: center; 
+  overflow:hidden;
+  height:100%;
+  width: 100%;
+  font-family:"微软雅黑","Microsoft YaHei","Lucida Grande", "Lucida Sans Unicode", "STHeiti", "Helvetica","Arial","Verdana","sans-serif";
+}
+
+.center-middle{
+    position: absolute;
+    left:50%;
+   transform: translate(-50%,-50%);
+   -ms-transform: translate(-50%,-50%);
+   -moz-transform: translate(-50%,-50%);
+   -webkit-transform: translate(-50%,-50%);
+}
+#container{
+	background-color:#e7e6e6;
+	background-size:cover;
+	top:3px;
+	left:1px;
+	height:100%;
+	width: 100%;
+	overflow:hidden;
+}
+#main{
+  position: relative;
+  margin-top:0px;
+  width:100%;
+  height:100%;
+}
+#mainhd{
+  margin-top:0px;
+  width:100%;
+  height:91%;
+}
+#main .bg{
+ position:absolute;
+ left:0px;
+ top:0px;
+ width:100%;
+ height:100%;
+ background: RGB(39,161,212) url(images/bg.png) no-repeat;
+ background-size: contain;
+ padding-top:0px; 
+ z-index:2;
+}
+#main .bg-01{
+ position:absolute;
+ left:0px;
+ top:0px;
+ width:100%;
+ height:100%;
+ background: RGB(39,161,212) url(../images/bg-li.png) no-repeat;
+ background-size: contain;
+ padding-top:10px; 
+ z-index:2;
+}
+
+#mainhd .bghd{
+ position:absolute;
+ left:0px;
+ top:0px;
+ width:100%;
+ height:91%;
+ background:transparent url(images/bg.png) center bottom;
+ background-size: cover;
+ padding-top:0px; 
+}
+#main .title{
+    padding-top:20px; 
+}
+#main>div{
+   
+}
+ul,li{
+    margin:0px;
+    padding: 0px;
+    list-style-type:none;
+
+}
+#main .rr{
+	position:relative;
+   margin-top:8px;
+   margin-bottom:8px; 
+   color:#ffffff;
+   font-weight:600;
+   font-size:1.50em;
+}
+.ul-mian{
+  position: relative;
+    margin:0px auto;
+    width:100%;
+    height:100%;
+    z-index: 3;
+    overflow: hidden;
+    top: 26%;
+	-moz-border-radius: 1%;
+	-webkit-border-radius: 1%;
+	border-radius: 3%;
+	-moz-box-shadow: 10px 10px 20px #000;
+	border:2px solid #fff;
+	background:#ffffff;
+	}
+.find-jg{ position: relative;
+    margin:0px auto;
+    width:100%;
+    height:100%;
+    z-index: 3;
+    overflow: hidden;
+	text-align:left;
+	text-indent:2%;
+	}
+.info{
+  margin:0 auto;
+  width: 100%;
+  font-size:0.86em;
+}
+.info span{
+  color:#c20009;
+ font-size:2em;
+}
+.info span.l{
+  text-align: right;
+}
+
+.more a:active{
+  opacity:0.6;
+}
+
+.scroll-bar{
+	position: relative;
+	margin:0px auto;
+	width:100%;
+	height:100%;
+	z-index: 3;
+	overflow: hidden;
+	top: 10%;
+}
+.xm-tz{
+	 position: relative;
+    width:45%;
+    height:100%;
+    z-index: 3;
+    overflow: hidden;
+    top: 26%;
+	float:left;
+    }
+.ul-main-img{
+ position: relative;
+    width:45%;
+    height:100%;
+    z-index: 3;
+    overflow: hidden;
+	float:left;
+	
+	}
+
+.ll{
+	position:relative;
+    margin:5% auto;
+    width:100%;
+    height:10%;
+
+  border-bottom:#000 1px solid;
+ }
+ .plive-img{
+	 position:relative;
+	 background:url(../images/xi02.png) 20% 20% no-repeat;
+	 z-index: 3;
+    overflow: hidden;
+    top: 50%;
+    background-size: 100%; 
+	 width:100%;
+	 height:20%;
+	-webkit-background-size: 100% 100%;
+	 }
+.p-class{
+ color:#fff;
+ margin:0 auto;
+ height:10%
+}
+.scroll-bar>div{
+  margin: 0 auto;
+  width:82%;
+  overflow:hidden;
+}
+.am-ts{ font-size:1.05em;
+margin:10% 10%;
+}
+.p-livema{ color:#fff; 
+font-size:1.06em; 
+width:100%;
+margin:0 auto;
+}
+
+.p-livema li{
+	width:45%;
+	overflow:hidden;
+	z-index:4;
+	float:left;
+	}
+
+ul li{
+  padding:5px 2px;
+  font-size:0.78em;
+  margin:0 auto;
+}
+
+
+li span{
+  display: inline-block;
+  text-align: left;
+  width:70%;
+  margin:1px;
+}
+li span:first-child{
+  width:25%;
+  text-align: left;
+  color:black;
+  font-weight:600;
+}
+li img{
+  width:90%;
+  margin-left:auto;
+  margin-right:auto;
+}
+#footer{
+   z-index: 9;
+   position:absolute;
+   width:100%;
+   bottom:0px;
+   left:0px;
+   height:15%;
+   background:transparent url(../Images/bottom-bg.jpg) center center;
+    background-size:100% 100%;
+}
+#footerhd{
+   z-index: 9;
+   position:absolute;
+   width:100%;
+   bottom:0px;
+   left:0px;
+   height:15%;
+   background:transparent url(../Images/footerhd.png) center center;
+    background-size:100% 100%;
+}
+
+#footer div{
+  display: inline-block;
+  position: relative;
+    width:22%;
+   height:100%;
+}
+
+#footerhd div{
+  display: inline-block;
+  position: relative;
+    width:80%;
+   height:60%;
+}
+
+#footer a:active img{
+  opacity:0.6;
+}
+#footerhd a:active img{
+  opacity:0.6;
+}
+
+img { border:0}
+* { -webkit-tap-highlight-color: rgba(0, 0, 0, 0);  }
+
+/*分辨率*/
+ @media screen and (max-width:375px)
+{
+    body
+    {
+		overflow:hidden;
+		margin:0;
+		padding:0;
+        font-size:12px;
+    }
+      .scroll-bar
+    {
+        top: 20%;
+    }
+    .scroll-bar>div 
+    {
+        width: 88%;
+    }
+}
+@media screen and (min-width:375px) and (max-width:413px)
+{
+    body
+    {
+		margin:0;
+		padding:0;
+		display:block;
+    }
+	
+    .plive-img p{ font-size:15px;}
+	
+    .scroll-bar
+    {
+        top: 21%;
+    }
+
+        .scroll-bar > div
+        {
+            width: 88%;
+        }
+		
+		
+ul li{
+  padding:5px 2px;
+  font-size:0.78em;
+  margin:0 auto;
+  display:block;
+}
+	.p-class p {
+    color: #fff;
+    margin: 0 auto;
+    font-size:14px;
+}
+}
+
+
+@media screen and (min-width:412px) and (max-width:767px)
+{
+    body
+    {
+		margin:0;
+		padding:0;
+        font-size:18px;
+    }
+    .scroll-bar
+    {
+        top: 22%;
+    }
+    .scroll-bar>div 
+    {
+        width: 90%;
+    }
+	.p-class p {
+    color: #fff;
+    margin: 0 auto;
+    font-size:16px;
+}
+}
+
+@media screen and (min-width:768px)
+{
+    body
+    {
+		margin:0;
+		padding:0;
+        font-size:16px;
+    }
+    .scroll-bar
+    {
+        top: 23%;
+    }
+    .scroll-bar>div 
+    {
+        width: 90%;
+    }
+
+}
+
+@media only screen and (min-width : 1224px) {
+
+ body
+    {
+		margin:0;
+		padding:0;
+        font-size:30px;
+    }
+    .scroll-bar
+    {
+        top: 23%;
+    }
+    .scroll-bar>div 
+    {
+        width: 80%;
+    }
+
+ li img{
+  width:60%;
+  margin-left:auto;
+  margin-right:auto;
+}
+.plive-img{
+	 position:relative;
+	 background:url(../images/xi02.png) 20% 20% no-repeat;
+	 z-index: 3;
+    overflow: hidden;
+    top: 50%;
+    background-size: 50%; 
+	 width:100%;
+	 height:20%;
+	-webkit-background-size: 100% 100%;
+	 }
+}
+@media only screen and (min-width : 1824px) {
+body
+    {
+		margin:0;
+		padding:0;
+        font-size:30px;
+    }
+    .scroll-bar
+    {
+        top: 23%;
+    }
+    .scroll-bar>div 
+    {
+        width: 80%;
+    }
+
+}

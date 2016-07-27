@@ -1,0 +1,119 @@
+﻿@charset "utf-8";
+/* CSS Document */
+body,html,div,p,ul,li { margin:0; padding:0;-webkit-text-size-adjust: none;}
+body {
+
+  -webkit-text-size-adjust:none; 
+  text-align: center; 
+  overflow:hidden;
+  height:100%;
+  width: 100%;
+  font-family:"微软雅黑","Microsoft YaHei","Lucida Grande", "Lucida Sans Unicode", "STHeiti", "Helvetica","Arial","Verdana","sans-serif";
+}
+#bg{
+   position:absolute;
+   background: #eee;
+   background-size:contain;
+   top:0px;
+   left:0px;
+   height:100%;
+   width: 100%;
+   overflow:auto;
+}
+#container
+{
+    width:90%;
+    height:99%;
+    margin:0 auto;
+}
+    #container .rr
+    {
+        padding-top:8px;
+        padding-bottom:8px;
+        color: #ffffff;
+        font-weight: 600;
+        font-size: 1.50em;
+    }
+    #container .ul-main
+    {
+        position: relative;
+        width: 100%;
+        height: 60%;
+        overflow: hidden;
+        -moz-border-radius: 1%;
+        -webkit-border-radius: 1%;
+        border-radius: 3%;
+        -moz-box-shadow: 10px 10px 20px #000;
+        border: 2px solid #fff;
+        background: #ffffff;
+    }
+ul li {
+    padding: 5px 2px;
+    font-size: 0.78em;
+    margin: 0 auto;
+    list-style-type:none;
+}
+li span:first-child {
+    width: 25%;
+    text-align: left;
+    color: black;
+    font-weight: 600;
+}
+li span {
+    display: inline-block;
+    text-align: left;
+    width: 70%;
+    margin: 1px;
+}
+.find-jg {
+    position: relative;
+    margin: 0px auto;
+    width: 100%;
+    overflow: hidden;
+    text-align: left;
+    text-indent: 2%;
+}
+.xm-tz {
+    position: relative;
+    width: 45%;
+    overflow: hidden;
+    top: 26%;
+    float: left;
+}
+.ll {
+    width: 100%;
+    height: 2%;
+    border-bottom: #000 1px solid;
+}
+.plive-img {
+    position: relative;
+    z-index: 3;
+    overflow: hidden;
+    top: 50%;
+    background-size: 100%;
+    width: 100%;
+    height: 20%;
+    -webkit-background-size: 100% 100%;
+}
+.p-class {
+    color: #fff;
+    font-size:smaller;
+}
+@media screen and (max-width:374px)
+{
+
+}
+@media screen and (min-width:375px) and (max-width:413px)
+{
+    body
+    {
+        font-size:1.22em;
+    }
+}
+@media screen and (min-width:414px) and (max-width:599px)
+{
+    body
+    {
+        font-size:1.35em;
+    }
+}
