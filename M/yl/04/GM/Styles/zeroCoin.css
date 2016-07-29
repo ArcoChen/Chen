@@ -1,0 +1,66 @@
+﻿@charset "utf-8";
+/* CSS Document */
+body,html,div,p,ul,li { margin:0; padding:0;-webkit-text-size-adjust: none;}
+body { 
+  -webkit-text-size-adjust:none; 
+  text-align: center; 
+  overflow:hidden;
+  height:100%;
+  width: 100%;
+  font-family:"微软雅黑","Microsoft YaHei","Lucida Grande", "Lucida Sans Unicode", "STHeiti", "Helvetica","Arial","Verdana","sans-serif";
+}
+
+#container{
+   position:absolute;
+   background: RGB(39,161,212) url(../Images/zreocoin.jpg) no-repeat;
+   background-size:contain;
+   top:0px;
+   left:0px;
+   height:100%;
+   width: 100%;
+   overflow:auto;
+}
+#top
+{
+    text-align:left;
+    padding-left:10px;
+    border-bottom:2px solid white;
+}
+    #top > span
+    {
+        display:inline;
+    }
+#footer
+{
+   position:absolute;
+   top:80%;
+   width:100%;
+}
+    #footer > input
+    {
+        width:138px;
+        height: 36px;
+        background:RGB(39,161,212);
+        font-weight:bold;
+        font-size:large;
+    }
+a
+{
+      font-family:"微软雅黑","Microsoft YaHei","Lucida Grande", "Lucida Sans Unicode", "STHeiti", "Helvetica","Arial","Verdana","sans-serif";
+}
+  a:link {
+    color:white;
+    text-decoration:none;
+    }
+    a:visited {
+    color:white;
+    text-decoration:none;
+    }
+    a:hover {
+    color:#000000;
+    text-decoration:none;
+    }
+    a:active {
+    color:#FFFFFF;
+    text-decoration:none;
+    }

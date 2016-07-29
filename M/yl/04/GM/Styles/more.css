@@ -1,0 +1,271 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+body,html,div,p,ul,li { margin:0; padding:0;-webkit-text-size-adjust: none;}
+body { 
+  -webkit-text-size-adjust:none; 
+   background-color:#2e3235;
+  color: #000;
+  text-align: center; 
+  overflow:hidden;
+  height:100%;
+  width: 100%;
+  font-family:"微软雅黑","Microsoft YaHei","Lucida Grande", "Lucida Sans Unicode", "STHeiti", "Helvetica","Arial","Verdana","sans-serif";
+}
+
+.center-middle{
+    position: absolute;
+    left:50%;
+    top:50%;
+   transform: translate(-50%,-50%);
+   -ms-transform: translate(-50%,-50%);
+   -moz-transform: translate(-50%,-50%);
+   -webkit-transform: translate(-50%,-50%);
+}
+#container{
+   position:absolute;
+    background-color:#e7e6e6;
+    background-size:cover;
+    top:0px;
+   left:0px;
+  height:100%;
+  width: 100%;
+  overflow:hidden;
+}
+#main{
+  position: relative;
+  margin-top:0px;
+  width:100%;
+  height:100%;
+}
+#mainhd{
+  margin-top:0px;
+  width:100%;
+  height:91%;
+}
+#main .bg{
+ position:absolute;
+ left:0px;
+ top:0px;
+ width:100%;
+ height:100%;
+ background: RGB(70,152,208) url(../Images/frames.png) no-repeat;
+ background-size: contain;
+ padding-top:0px; 
+ z-index:2;
+}
+
+#mainhd .bghd{
+ position:absolute;
+ left:0px;
+ top:0px;
+ width:100%;
+ height:91%;
+ background:transparent url(../Images/frame.png) center bottom;
+ background-size: cover;
+ padding-top:0px; 
+}
+#main .title{
+    padding-top:20px; 
+}
+#main>div{
+   
+}
+ul,li{
+    margin:0px;
+    padding: 0px;
+    list-style-type:none;
+
+}
+#main .rr{
+   margin-top:8px;
+   margin-bottom:8px; 
+   color:#c20009;
+}
+.info{
+  margin:0 auto;
+  width: 100%;
+  font-size:0.86em;
+}
+.info span{
+  color:#c20009;
+ font-size:2em;
+}
+.info span.l{
+  text-align: right;
+}
+
+.more a:active{
+  opacity:0.6;
+}
+
+.scroll-bar{
+    position: relative;
+    margin:0px auto;
+    width:100%;
+    height:60%;
+    z-index: 3;
+    overflow: hidden;
+    top: 26%;
+}
+.scroll-bar>div{
+  margin: 0 auto;
+  width:82%;
+  overflow:hidden;
+}
+ul li{
+  border-bottom:1px #999 solid; 
+  padding:4px 2px;
+  font-size:0.78em;
+}
+
+/*ul li:last-child{
+ margin-bottom:60px;
+  border-bottom:1px #999 solid; 
+}*/
+
+li span{
+  display: inline-block;
+  text-align: left;
+  width:70%;
+  margin:1px;
+}
+li span:first-child{
+  width:25%;
+  text-align: left;
+  color:red;
+  font-weight:bold;
+}
+li img{
+  width:90%;
+  margin-left:auto;
+  margin-right:auto;
+}
+#footer{
+   z-index: 9;
+   position:absolute;
+   width:100%;
+   bottom:0px;
+   left:0px;
+   height:15%;
+   background:transparent url(../Images/bottom-bg.jpg) center center;
+    background-size:100% 100%;
+}
+#footerhd{
+   z-index: 9;
+   position:absolute;
+   width:100%;
+   bottom:0px;
+   left:0px;
+   height:15%;
+   background:transparent url(../Images/footerhd.png) center center;
+    background-size:100% 100%;
+}
+
+#footer div{
+  display: inline-block;
+  position: relative;
+    width:22%;
+   height:100%;
+}
+
+#footer_01 {
+   z-index: 9;
+   position:absolute;
+   width:100%;
+   bottom:-50px;
+   left:0px;
+   height:15%;
+   /*background:transparent url(../Images/bottom-bg.jpg) center center;*/
+    background-size:100% 100%;
+    font-size:1rem;
+   color:#fff;
+   
+}
+
+
+#footerhd div{
+  display: inline-block;
+  position: relative;
+    width:80%;
+   height:60%;
+}
+
+#footer a:active img{
+  opacity:0.6;
+}
+#footerhd a:active img{
+  opacity:0.6;
+}
+
+img { border:0}
+* { -webkit-tap-highlight-color: rgba(0, 0, 0, 0);  }
+
+/*分辨率*/
+ @media screen and (max-width:375px)
+{
+    body
+    {
+        font-size:12px;
+    }
+      .scroll-bar
+    {
+        top: 22%;
+    }
+    .scroll-bar>div 
+    {
+        width: 88%;
+    }
+}
+@media screen and (min-width:375px) and (max-width:413px)
+{
+    body
+    {
+        font-size: 20px;
+    }
+
+    .scroll-bar
+    {
+        top: 21%;
+    }
+
+        .scroll-bar > div
+        {
+            width: 88%;
+        }
+}
+
+@media screen and (min-width:414px) and (max-width:767px)
+{
+    body
+    {
+        font-size:22px;
+    }
+    .scroll-bar
+    {
+        top: 20%;
+    }
+    .scroll-bar>div 
+    {
+        width: 90%;
+    }
+}
+
+@media screen and (min-width:768px)
+{
+    body
+    {
+        font-size:30px;
+    }
+    .scroll-bar
+    {
+        top: 22%;
+    }
+    .scroll-bar>div 
+    {
+        width: 90%;
+    }
+
+}
+
+
